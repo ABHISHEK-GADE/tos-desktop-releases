@@ -3,14 +3,14 @@
 <div align="center">
 
 [![Windows 10 / 11](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.4-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.5-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
 [![OBS Studio](https://img.shields.io/badge/OBS%20WebSocket-v5.0%20Compatible-27B070?style=for-the-badge&logo=obsstudio&logoColor=white)](https://obsproject.com/)
 [![Built For Streamers](https://img.shields.io/badge/Built%20For-Live%20Streamers-3A6DE4?style=for-the-badge&logo=youtube&logoColor=white)](https://tipsonstream.in)
 
 ### High-performance, broadcast-safe Windows companion software for Indian live streamers.
 #### Real-time OBS integration, local multi-platform chatbots, instant alert replays, and zero-interruption background updates.
 
-[**⬇️ Download Latest Installer (v1.0.4)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.4/Tips-On-Stream-Companion-Setup-1.0.4.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
+[**⬇️ Download Latest Installer (v1.0.5)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.5/Tips-On-Stream-Companion-Setup-1.0.5.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
 
 </div>
 
@@ -20,25 +20,52 @@
 
 | Component | Specification | Direct Download |
 | :--- | :--- | :--- |
-| **Latest Version** | `v1.0.4` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.4/Tips-On-Stream-Companion-Setup-1.0.4.exe) |
-| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.4.exe` | *(Windows 64-bit NSIS Installer)* |
-| **File Size** | `83.74 MB` (87,807,404 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.4) |
+| **Latest Version** | `v1.0.5` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.5/Tips-On-Stream-Companion-Setup-1.0.5.exe) |
+| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.5.exe` | *(Windows 64-bit NSIS Installer)* |
+| **File Size** | `83.77 MB` (87,844,451 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.5) |
 | **Auto-Update Feed** | Enabled via `latest.yml` delta blockmap | Automatic silent in-place upgrades |
 | **System Compatibility** | Windows 10 (Build 19041+) / Windows 11 (x64) | OBS Studio v28.0+ |
 
 ---
 
-## 📋 Release Changelog Registry (Last 5 Versions)
+## 📋 Release Changelog Registry (Last 6 Versions)
 
 All official client releases are cataloged below in chronological order (newest at the top, oldest at the bottom).
 
 ```
-v1.0.4 (Latest)  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──►  v1.0.0 (Genesis)
+v1.0.5 (Latest)  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──►  v1.0.0 (Genesis)
 ```
 
 ---
 
-### 🚀 [v1.0.4] - 2026-10-13 (Latest Production Release)
+### 🚀 [v1.0.5] - 2026-10-13 (Latest Production Release)
+> **Alert Studio Real Game Theme Simulation & Zero-Freeze Fast Startup Engine**
+
+[📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.5)
+
+#### ✨ Highlights & New Capabilities
+- **Alert Studio Real Game Theme Simulation Engine:** Upgraded the Alert Studio simulation panel to render the creator's actual selected game kit theme (BGMI Camo, Valorant, Minecraft, Forza Speedo, YouTube Super Chat, etc.) with matching typography, animations, HUD frames, and audio playback instead of generic static alerts.
+- **Startup Performance & Zero-Freeze Restart:** Eliminated startup freeze when restarting after automatic updates. Optimized early initialization pipelines for sub-second splash-to-dashboard transitions.
+- **Native Windows Autostart Support:** Added a "Start with Windows" system tray toggle via native Windows login item settings, allowing background daemon listeners to start seamlessly with the OS.
+- **Internal Beta Tester Isolation & Fleet Tracking:** Complete separation of testing environments from production creators with an admin fleet management dashboard to monitor active device states.
+- **Storage Proxy Resilience:** Resolved `.htaccess` missing-asset rule collision on LiteSpeed servers to ensure uninterrupted avatar and custom audio asset delivery via `/storage/` endpoints.
+- **AEO / GEO Semantic Search Optimization:** Entity grounding enhancements across marketing and documentation endpoints for enhanced discoverability across AI search engines.
+
+#### 🛡️ Stability & Security
+- Passed 100% pre-flight test suites (30 test files, 289 automated tests passing).
+- Verified 0 TypeScript compiler diagnostics across Electron main, preload, and React renderer bundles.
+
+#### 🔒 Binary Verification
+- **Artifact:** `Tips-On-Stream-Companion-Setup-1.0.5.exe`
+- **File Size:** `87,844,451 bytes` (~83.77 MB)
+- **SHA512 Checksum:**
+  ```text
+  BF23A1850083D63FBB93572EC8C1CCAF0EE8911ED70D73065EF9DC8C880C808B582959B9D29CA9FE05850158B72048EB73F634620ED29D86162ED6846E1882E1
+  ```
+
+---
+
+### 🎨 [v1.0.4] - 2026-10-13
 > **Authentic Branding Architecture & Windows 11 Smart App Control Hardening**
 
 [📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.4)
@@ -176,7 +203,7 @@ v1.0.4 (Latest)  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──
 To verify the integrity of any downloaded installer binary against the official release hashes, run the following command in Windows PowerShell:
 
 ```powershell
-Get-FileHash -Path ".\Tips-On-Stream-Companion-Setup-1.0.4.exe" -Algorithm SHA512 | Format-List
+Get-FileHash -Path ".\Tips-On-Stream-Companion-Setup-1.0.5.exe" -Algorithm SHA512 | Format-List
 ```
 
 Compare the resulting hash with the SHA512 string documented under the corresponding release above.
