@@ -3,14 +3,14 @@
 <div align="center">
 
 [![Windows 10 / 11](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.5-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.6-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
 [![OBS Studio](https://img.shields.io/badge/OBS%20WebSocket-v5.0%20Compatible-27B070?style=for-the-badge&logo=obsstudio&logoColor=white)](https://obsproject.com/)
 [![Built For Streamers](https://img.shields.io/badge/Built%20For-Live%20Streamers-3A6DE4?style=for-the-badge&logo=youtube&logoColor=white)](https://tipsonstream.in)
 
 ### High-performance, broadcast-safe Windows companion software for Indian live streamers.
 #### Real-time OBS integration, local multi-platform chatbots, instant alert replays, and zero-interruption background updates.
 
-[**⬇️ Download Latest Installer (v1.0.5)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.5/Tips-On-Stream-Companion-Setup-1.0.5.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
+[**⬇️ Download Latest Installer (v1.0.6)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.6/Tips-On-Stream-Companion-Setup-1.0.6.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
 
 </div>
 
@@ -20,25 +20,51 @@
 
 | Component | Specification | Direct Download |
 | :--- | :--- | :--- |
-| **Latest Version** | `v1.0.5` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.5/Tips-On-Stream-Companion-Setup-1.0.5.exe) |
-| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.5.exe` | *(Windows 64-bit NSIS Installer)* |
-| **File Size** | `83.77 MB` (87,844,451 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.5) |
+| **Latest Version** | `v1.0.6` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.6/Tips-On-Stream-Companion-Setup-1.0.6.exe) |
+| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.6.exe` | *(Windows 64-bit NSIS Installer)* |
+| **File Size** | `85.70 MB` (89,864,589 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.6) |
 | **Auto-Update Feed** | Enabled via `latest.yml` delta blockmap | Automatic silent in-place upgrades |
 | **System Compatibility** | Windows 10 (Build 19041+) / Windows 11 (x64) | OBS Studio v28.0+ |
 
 ---
 
-## 📋 Release Changelog Registry (Last 6 Versions)
+## 📋 Release Changelog Registry (Last 7 Versions)
 
 All official client releases are cataloged below in chronological order (newest at the top, oldest at the bottom).
 
 ```
-v1.0.5 (Latest)  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──►  v1.0.0 (Genesis)
+v1.0.6 (Latest)  ──►  v1.0.5  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──►  v1.0.0 (Genesis)
 ```
 
 ---
 
-### 🚀 [v1.0.5] - 2026-10-13 (Latest Production Release)
+### 🚀 [v1.0.6] - 2026-10-28 (Latest Production Release)
+> **Instant NSIS Installer Finish, Resilient Background Auto-Update Restarts, and Full Soundboard Sync**
+
+[📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.6)
+
+#### ✨ Highlights & New Capabilities
+- **Instant NSIS Installer Finish & Startup:** Completely eliminated the post-installation finish lag when clicking "Finish" on the setup wizard. Streamlined direct Windows shell execution for immediate application launch.
+- **Resilient Silent Background Updates:** Engineered a 1-second process termination buffer preventing Windows file lock contention on `%LOCALAPPDATA%\Programs\...` binaries during silent in-place auto-updates.
+- **Unified Update Installation Pipeline:** Standardized update restart routines across the frameless titlebar header, Settings tab, and Windows system tray into a single reliable execution handler.
+- **Real-Time Soundboard & Alert Studio Sync:** Fully synchronized 660+ soundboard presets, dynamic audio previewers, and universal theme integrations.
+- **Zero-Interruption Broadcast Safety:** Deferral of background updates and restarts while live streaming with OBS Studio is detected.
+
+#### 🛡️ Stability & Security
+- Passed 100% pre-flight test suites (46 test files, 443 automated tests passing).
+- Verified 0 TypeScript compiler diagnostics across Electron main, preload, and React renderer bundles.
+
+#### 🔒 Binary Verification
+- **Artifact:** `Tips-On-Stream-Companion-Setup-1.0.6.exe`
+- **File Size:** `89,864,589 bytes` (~85.70 MB)
+- **SHA512 Checksum:**
+  ```text
+  3C3AE60DAF1FE2C4D85B8F84DF6EF0F793CCD2BB00E07E8954205B345B52BE30BF0CEB2771530F20C6A899E7D822889060434B4D2825D81C91238F01EDE75E81
+  ```
+
+---
+
+### 🚀 [v1.0.5] - 2026-10-13
 > **Alert Studio Real Game Theme Simulation & Zero-Freeze Fast Startup Engine**
 
 [📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.5)
@@ -203,7 +229,7 @@ v1.0.5 (Latest)  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──
 To verify the integrity of any downloaded installer binary against the official release hashes, run the following command in Windows PowerShell:
 
 ```powershell
-Get-FileHash -Path ".\Tips-On-Stream-Companion-Setup-1.0.5.exe" -Algorithm SHA512 | Format-List
+Get-FileHash -Path ".\Tips-On-Stream-Companion-Setup-1.0.6.exe" -Algorithm SHA512 | Format-List
 ```
 
 Compare the resulting hash with the SHA512 string documented under the corresponding release above.
