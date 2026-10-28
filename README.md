@@ -3,14 +3,14 @@
 <div align="center">
 
 [![Windows 10 / 11](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011%20(x64)-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
-[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.7-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
+[![Latest Release](https://img.shields.io/badge/Latest%20Version-v1.0.8-FA8F38?style=for-the-badge&logo=rocket&logoColor=white)](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/latest)
 [![OBS Studio](https://img.shields.io/badge/OBS%20WebSocket-v5.0%20Compatible-27B070?style=for-the-badge&logo=obsstudio&logoColor=white)](https://obsproject.com/)
 [![Built For Streamers](https://img.shields.io/badge/Built%20For-Live%20Streamers-3A6DE4?style=for-the-badge&logo=youtube&logoColor=white)](https://tipsonstream.in)
 
 ### High-performance, broadcast-safe Windows companion software for Indian live streamers.
 #### Real-time OBS integration, local multi-platform chatbots, instant alert replays, and zero-interruption background updates.
 
-[**⬇️ Download Latest Installer (v1.0.7)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.7/Tips-On-Stream-Companion-Setup-1.0.7.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
+[**⬇️ Download Latest Installer (v1.0.8)**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.8/Tips-On-Stream-Companion-Setup-1.0.8.exe) • [**🌐 Web Platform**](https://tipsonstream.in) • [**📖 Documentation**](https://tipsonstream.in/guides)
 
 </div>
 
@@ -20,9 +20,9 @@
 
 | Component | Specification | Direct Download |
 | :--- | :--- | :--- |
-| **Latest Version** | `v1.0.7` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.7/Tips-On-Stream-Companion-Setup-1.0.7.exe) |
-| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.7.exe` | *(Windows 64-bit NSIS Installer)* |
-| **File Size** | `85.70 MB` (89,863,932 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.7) |
+| **Latest Version** | `v1.0.8` (Production Milestone) | [**Download Setup .exe**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/download/v1.0.8/Tips-On-Stream-Companion-Setup-1.0.8.exe) |
+| **Artifact Name** | `Tips-On-Stream-Companion-Setup-1.0.8.exe` | *(Windows 64-bit NSIS Installer)* |
+| **File Size** | `85.89 MB` (90,065,502 bytes) | [**View Release Assets**](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.8) |
 | **Auto-Update Feed** | Enabled via `latest.yml` delta blockmap | Automatic silent in-place upgrades |
 | **System Compatibility** | Windows 10 (Build 19041+) / Windows 11 (x64) | OBS Studio v28.0+ |
 
@@ -33,12 +33,38 @@
 All official client releases are cataloged below in chronological order (newest at the top, oldest at the bottom).
 
 ```
-v1.0.7 (Latest)  ──►  v1.0.6  ──►  v1.0.5  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1  ──►  v1.0.0 (Genesis)
+v1.0.8 (Latest)  ──►  v1.0.7  ──►  v1.0.6  ──►  v1.0.5  ──►  v1.0.4  ──►  v1.0.3  ──►  v1.0.2  ──►  v1.0.1
 ```
 
 ---
 
-### 🚀 [v1.0.7] - 2026-10-28 (Latest Production Release)
+### 🚀 [v1.0.8] - 2026-10-28 (Latest Production Release)
+> **Startup Window Display Fix, Authentic Wrapped Brand Icon Restoration & Microsoft-Standard Windows ICO Architecture**
+
+[📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.8)
+
+#### ✨ Highlights & New Capabilities
+- **Instant Startup Window Display:** Fixed startup window display logic so the main application window opens and focuses immediately on launch. Resolved issue where Windows registry startup settings caused normal user launches to be misidentified as silent background runs.
+- **Authentic Brand Icon Restoration:** Restored the official Tips On Stream wrapped brand squircle logo emblem across all executable binaries, desktop/start menu shortcuts, installer graphics, and system tray.
+- **Windows Shell & ICO Standardization:** Rebuilt multi-resolution Windows ICO using Microsoft-standard DIB `BITMAPINFOHEADER` headers (16, 24, 32, 48, 64, 128px) and PNG (256px), eliminating icon blanking or corruption in Windows Explorer and Taskbar across all DPI scales.
+- **Enhanced System Tray Control:** Single-click and double-click tray actions toggle/focus the application window with safe fallback rendering.
+- **Process Resilience & Crash Guards:** Added global uncaught exception and unhandled rejection handlers to guarantee rock-solid runtime stability.
+
+#### 🛡️ Stability & Security
+- Passed 100% pre-flight test suites (63 test files, 583 automated tests passing, 26 companion unit tests).
+- Verified 0 TypeScript compiler diagnostics across Electron main, preload, and React renderer bundles.
+
+#### 🔒 Binary Verification
+- **Artifact:** `Tips-On-Stream-Companion-Setup-1.0.8.exe`
+- **File Size:** `90,065,502 bytes` (~85.89 MB)
+- **SHA512 Checksum:**
+  ```text
+  A96D793BEE58AC0CB37C5C75F67743157ED6B4F00F16F6BF8283CFB92DA26FDAAD89932EBA69F587A9BFEAB34A6C36C2DABF64010FF698B97373B8C311D0EC58
+  ```
+
+---
+
+### 🚀 [v1.0.7] - 2026-10-28
 > **Dual-Platform Auth Isolation, Real-Time Goals Sync, Authentic Soundboard Audio Engine & Zero-Mock Data Enforcement**
 
 [📦 Release Assets & Download](https://github.com/ABHISHEK-GADE/tos-desktop-releases/releases/tag/v1.0.7)
